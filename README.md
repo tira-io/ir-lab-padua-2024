@@ -1,8 +1,8 @@
 # IR Lab in Padua 2024: Building Search Engines for LongEval'24 at CLEF 2024
 
-This repository serves as starter for the IR lab in Padua 2024 for participation at [LongEval 2024](https://clef-longeval.github.io/) at [CLEF 2024](https://clef2024.imag.fr/).
+This repository serves as starter for the IR lab in Padua 2024 for participation at [LongEval 2024](https://clef-longeval.github.io/) at [CLEF 2024](https://clef2024.imag.fr/) using [TIRA](https://www.tira.io/)/[TIREx](https://www.tira.io/tirex).
 
-We recommend that you work using [dev containers with Docker](https://code.visualstudio.com/docs/devcontainers/containers).
+We recommend that you work using [dev containers with Docker](https://code.visualstudio.com/docs/devcontainers/containers) to simplify reproducible submissions to TIRA.
 
 
 ## Developing in Dev Containers
