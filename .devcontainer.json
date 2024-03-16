@@ -15,5 +15,7 @@
         "README.md"
       ]
     }
-  }
+  },
+  "runArgs": ["--privileged"],
+  "mounts": ["source=${localWorkspaceFolder}/.tira,target=/root/.tira,type=bind"]
 }
