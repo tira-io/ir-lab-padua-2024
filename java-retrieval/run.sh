@@ -5,6 +5,7 @@
 ###########################################################################################
 
 DATASET=$(tira-cli download --dataset longeval-tiny-train-20240315-training)
+
 #As an example, could be anything else that is available
 INDEX=$(tira-cli download --dataset longeval-tiny-train-20240315-training --approach 'ir-benchmarks/tira-ir-starter/Index (tira-ir-starter-pyterrier)')
 
@@ -17,7 +18,7 @@ fi
 # Run on all inputs
 ###########################################################################################
 
-JAR_FILE=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd)
+JAR_FILE=$( cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &> /dev/null && pwd)
 JAR_FILE="${JAR_FILE}/target/longeval24-1.0-SNAPSHOT-jar-with-dependencies.jar"
 
 java -jar ${JAR_FILE} --input $DATASET --output $TIRA_OUTPUT_DIR --index $INDEX
